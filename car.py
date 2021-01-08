@@ -37,6 +37,9 @@ class Computer():
     def __str__(self):
         return '{}, {}, {}'.format(self.make, self.device, self.color)
 
+    # def pros(self):
+    #     self.device = gpu
+
 
 computer = Computer('Apple', 'MacBook M Chip', 'Grey')
 
